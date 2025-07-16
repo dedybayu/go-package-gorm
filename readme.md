@@ -69,6 +69,28 @@ Server akan berjalan di `http://localhost:8080`
   ```json
   { "ok": true }
   ```
+- `GET /users`\
+  Mengembalikan JSON:
+  ```json
+  [
+    {
+        "id": 1,
+        "name": "Name1",
+        "email": "email1",
+        "password": "pass1",
+        "created_at": "2025-07-16T22:08:52+07:00",
+        "updated_at": "2025-07-16T22:08:52+07:00"
+    },
+    {
+        "id": 2,
+        "name": "Name2",
+        "email": "email2",
+        "password": "pass2",
+        "created_at": "2025-07-16T22:11:14+07:00",
+        "updated_at": "2025-07-16T22:11:14+07:00"
+    }
+  ]
+  ```
 
 ---
 
